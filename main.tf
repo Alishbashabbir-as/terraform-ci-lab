@@ -71,7 +71,7 @@ resource "aws_instance" "web" {
   EOF
 
   tags = {
-    Name = "tf-web"
+    Name = "tf-web-v2"
   }
 }
 
